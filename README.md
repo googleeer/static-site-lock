@@ -1,6 +1,5 @@
-# Password protection for static pages
-
-This simple HTML document helps you protecting static pages or whole websites with no server configuration required: you can now use Dropbox, Amazon S3 or any generic hosting service to host a private, password protected site.
+# static-site-lock
+A simple mechanism for adding straightforward password protection to static website pages.
 
 This small project is a byproduct of my [Tumbless blogging platform](https://github.com/matteobrusa/Tumbless) project.
 
@@ -25,7 +24,7 @@ The final structure will be:
 Pretty much secure, please consider that:
 
 0. If your hosting service offers directory listing, a visitor can bypass the protection.
-1. there's no protection against brute force attack. Pick a very long and hard to guess password. 
+1. there's no protection against brute force attack. Pick a very long and hard to guess password.
 2. The password's hash is part of the URI. __Enforce HTTPS__ to avoid man in the middle attacks.
 
 ## Troubleshooting
